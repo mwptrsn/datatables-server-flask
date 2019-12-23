@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+	<title>A simple server-side datatables</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+</head>
+<body>
+{% block body %}
+{% endblock %}
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" 
+	src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+
+<script>
+{% block js %}
+{% endblock %}
+</script>
+</body>
